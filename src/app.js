@@ -1,16 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Search from './searchbar.js'
-
-class Submitbutton extends React.Component {
-	render() {
-		return (
-			<button className="search">Search</button>
-		)
-	}
-}
-
 class App extends React.Component {
 	render() {
 		return (
